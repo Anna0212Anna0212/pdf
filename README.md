@@ -36,14 +36,6 @@ https://anna0212anna0212.github.io/pdf/
 | Delete / Backspace | 刪除選取頁面 |
 | Shift + 點擊 | 選取連續範圍 |
 
-## 部署到 GitHub Pages
-
-1. 建立新的 GitHub repository，把 `index.html`、`README.md` 上傳到根目錄
-2. 到 **Settings → Pages**，Source 選 `Deploy from a branch`，Branch 選 `main` / `/ (root)`，儲存
-3. 約一分鐘後即可在 `https://<你的帳號>.github.io/<repo 名稱>/` 使用
-
-> 本專案使用 CDN 載入 [pdf-lib](https://pdf-lib.js.org/)（編輯與匯出）、[pdf.js](https://mozilla.github.io/pdf.js/)（縮圖與預覽）、[JSZip](https://stuk.github.io/jszip/)（打包 ZIP）以及 Google Fonts（字型），使用時需要網路連線。若想完全離線使用，可把這些檔案下載到 repo 內並修改 `<script>` 路徑；pdf.js 的 worker 載入位置在程式碼的 `WURL`。
-
 ## 已知限制
 
 - 有密碼保護的 PDF 需先解除密碼才能載入
@@ -51,6 +43,8 @@ https://anna0212anna0212.github.io/pdf/
 - 非常大的檔案（總計數百 MB）受瀏覽器記憶體限制，建議分批處理，或用「每 N 頁切開」匯出
 - 重新整理頁面後工作內容會清空（離開前瀏覽器會提醒）
 
-## 授權
+# 聯繫我
 
-自由使用與修改。第三方套件依其各自授權。
+若您在使用此程式時遇到任何問題或有建議，請隨時聯繫我：
+
+電子郵件：yim20000101@gmail.com
